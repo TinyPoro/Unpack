@@ -6,7 +6,7 @@ Hiếm khi chúng ta được yêu cầu làm việc với các file nhị phân
 
 #### Header của 1 file GIF
 
-Với yêu cầu không được sử dụng bất kỳ hàm đồ họa nào, để giải quyết vấn đề này chúng ta cần phải lấy những dữ liệu liên quan từ chính file GIF. Không giống như HTML hay XML hay các file định dạng văn bản khác, 1 file GIF và hầu hết các định dạng ảnh khác được lưu ở định dạng nhị phân.Hầu hết các file nhị phân có header ở trên đầu file chứa thông tin  meta  về file cụ thể. Chúng ta có thể sử dụng thông tin này để biết được loại file và những thứ khác, như là chiều cao và chiều rộng trong trường hợp file GIF. 1 header GIF thô điển hình sẽ như bên dưới, sử dụng cái trình soạn thảo hex như là [WinHex][1]. 
+Với yêu cầu không được sử dụng bất kỳ hàm đồ họa nào, để giải quyết vấn đề này chúng ta cần phải lấy những dữ liệu liên quan từ chính file GIF. Không giống như HTML hay XML hay các file định dạng văn bản khác, 1 file GIF và hầu hết các định dạng ảnh khác được lưu ở định dạng nhị phân.Hầu hết các file nhị phân có header ở trên đầu file chứa thông tin  meta  về file cụ thể. Chúng ta có thể sử dụng thông tin này để biết được loại file và những thứ khác, như là chiều cao và chiều rộng trong trường hợp file GIF. 1 header thông thường của tệp GIF được mô tả bên dưới, sử dụng các trình soạn thảo hex như là [WinHex][1]. 
 
 ![][2]
 
@@ -150,7 +150,7 @@ Dòng quan trọng cần lưu lại là dòng đặc tả định dạng. Kí t�
 
  | 
 
-Ví dụ trên khi chạy sẽ in ra dòng bên như bên dứoi
+Ví dụ trên khi chạy sẽ in ra dòng bên như bên dưới
 
 | ----- |
 | 
@@ -169,7 +169,7 @@ Ví dụ trên khi chạy sẽ in ra dòng bên như bên dứoi
 
  | 
 
-Tiếp theo chúng ta sẽ đi đến chi tiết cách mà đặc tả định dạng hoạt động. Tôi sẽ chia các định dạng, và cung cấp thông tin cho mỗi loại.
+Tiếp theo chúng ta sẽ tìm hiểu kỹ hơn cách hoạt động của định dạng khai báo. Ta sẽ tách, phân tích định dạng và đi vào chi tiết từng ký tự.
 
 | ----- |
 | 
