@@ -1,4 +1,4 @@
-[Source](https://www.codediesel.com/php/unpacking-binary-data/ "Permalink to Unpacking binary data in PHP")
+[P](https://packagist.org/packages/tinyporo/image_checker)
 
 # Giải nén dữ liệu nhị phân trong PHP
 
