@@ -1,4 +1,4 @@
-[P](https://packagist.org/packages/tinyporo/image_checker)
+[Package](https://packagist.org/packages/tinyporo/image_checker)
 
 # Giải nén dữ liệu nhị phân trong PHP
 
